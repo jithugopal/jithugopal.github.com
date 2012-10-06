@@ -1,0 +1,24 @@
+@import "base";
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+}
+
+.page {
+  margin: 200px auto;
+  width: percentage($container-width / $page-width);
+}
+
+.bio {
+  .name {
+    padding: 10px;
+    font-size: 3em;
+  }
+  .about {
+    padding: 10px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #555;
+  }
+}
+
