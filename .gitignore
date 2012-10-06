@@ -4,4 +4,8 @@
 # emacs stuff
 *~
 \#*
+
+#blog specific
 _site
+css
+.sass-cache
