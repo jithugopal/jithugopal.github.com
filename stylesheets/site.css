@@ -115,3 +115,8 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+/* line 47, ../assets/stylesheets/site.scss */
+#disqus_thread {
+  margin: 30px 0;
+}
