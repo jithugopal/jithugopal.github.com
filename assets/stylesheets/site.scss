@@ -1,24 +1,46 @@
 @import "base";
 
-body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
-}
-
 .page {
-  margin: 200px auto;
+  margin: 0px auto;
+  padding: 20px 0;
   width: percentage($container-width / $page-width);
 }
 
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  line-height: 1.5em;
+}
+
 .bio {
+  margin-top: 200px;
   .name {
-    padding: 10px;
+    padding: 20px 10px;
     font-size: 3em;
   }
   .about {
     padding: 10px;
     font-size: 1.5em;
+    color: #444;
+    p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.post {
+  margin-top: 50px;
+  .title {
+    font-size: 2em;
+    padding: 50px 0;
+    text-align: center;
+  }
+  p {
+    color: #444;
+    font-size: 1.3em;
     line-height: 1.5em;
-    color: #555;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 

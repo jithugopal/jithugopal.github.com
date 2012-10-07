@@ -64,25 +64,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 3, ../assets/stylesheets/site.scss */
-body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
-}
-
-/* line 7, ../assets/stylesheets/site.scss */
 .page {
-  margin: 200px auto;
+  margin: 0px auto;
+  padding: 20px 0;
   width: 46.703%;
 }
 
-/* line 13, ../assets/stylesheets/site.scss */
+/* line 9, ../assets/stylesheets/site.scss */
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  line-height: 1.5em;
+}
+
+/* line 14, ../assets/stylesheets/site.scss */
+.bio {
+  margin-top: 200px;
+}
+/* line 16, ../assets/stylesheets/site.scss */
 .bio .name {
-  padding: 10px;
+  padding: 20px 10px;
   font-size: 3em;
 }
-/* line 17, ../assets/stylesheets/site.scss */
+/* line 20, ../assets/stylesheets/site.scss */
 .bio .about {
   padding: 10px;
   font-size: 1.5em;
+  color: #444;
+}
+/* line 24, ../assets/stylesheets/site.scss */
+.bio .about p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 31, ../assets/stylesheets/site.scss */
+.post {
+  margin-top: 50px;
+}
+/* line 33, ../assets/stylesheets/site.scss */
+.post .title {
+  font-size: 2em;
+  padding: 50px 0;
+  text-align: center;
+}
+/* line 38, ../assets/stylesheets/site.scss */
+.post p {
+  color: #444;
+  font-size: 1.3em;
   line-height: 1.5em;
-  color: #555;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
