@@ -28,6 +28,27 @@ body {
   }
 }
 
+.posts {
+  margin-top: 50px;
+  .blog-post {
+    padding: 20px 0;
+    h1 {
+      padding: 10px 0;
+      font-size: 1.5em;
+    }
+    .title a {
+      color: #111;
+      text-decoration: none;
+    }
+    .title a:hover {
+      color: #0b0;
+    }
+    p {
+      color: #444;
+    }
+  }
+}
+
 .post {
   margin-top: 50px;
   .title {
