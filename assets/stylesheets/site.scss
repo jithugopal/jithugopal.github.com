@@ -6,6 +6,25 @@
   width: percentage($container-width / $page-width);
 }
 
+nav {
+  margin: 10px auto;
+  width: percentage($container-width / $page-width);
+  text-align: left;
+  li {
+    float: left;
+    padding: 0 10px;
+    a {
+      color: #666;
+      font-size: 1.2em;
+      font-variant: small-caps;
+      text-decoration: none;
+    }
+  }
+  li:hover {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.4);
+  }
+}
+
 body {
   font-family: 'Helvetica Neue', 'Arial', sans-serif; 
   line-height: 1.5em;
@@ -41,7 +60,7 @@ body {
       text-decoration: none;
     }
     .title a:hover {
-      color: #0b0;
+      color: #070;
     }
     p {
       color: #444;
