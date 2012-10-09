@@ -1,15 +1,14 @@
 @import "base";
 
-.page {
-  margin: 0px auto;
-  padding: 20px 0;
-  width: percentage($container-width / $page-width);
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  line-height: 1.5em;
 }
 
 nav {
   margin: 10px auto;
   width: percentage($container-width / $page-width);
-  text-align: left;
+  overflow: hidden;
   li {
     float: left;
     padding: 0 10px;
@@ -25,9 +24,10 @@ nav {
   }
 }
 
-body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
-  line-height: 1.5em;
+.page {
+  margin: 0px auto;
+  padding: 20px 0;
+  width: percentage($container-width / $page-width);
 }
 
 .bio {
