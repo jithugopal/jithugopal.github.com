@@ -1,8 +1,12 @@
 @import "base";
 
 body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   line-height: 1.5em;
+}
+
+em {
+  font-style: italic;
 }
 
 nav {

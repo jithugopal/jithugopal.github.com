@@ -70,94 +70,99 @@ body {
 }
 
 /* line 8, ../assets/stylesheets/site.scss */
+em {
+  font-style: italic;
+}
+
+/* line 12, ../assets/stylesheets/site.scss */
 nav {
   margin: 10px auto;
   width: 46.703%;
   overflow: hidden;
 }
-/* line 12, ../assets/stylesheets/site.scss */
+/* line 16, ../assets/stylesheets/site.scss */
 nav li {
   float: left;
   padding: 0 10px;
 }
-/* line 15, ../assets/stylesheets/site.scss */
+/* line 19, ../assets/stylesheets/site.scss */
 nav li a {
   color: #666;
   font-size: 1.2em;
   font-variant: small-caps;
   text-decoration: none;
 }
-/* line 22, ../assets/stylesheets/site.scss */
+/* line 26, ../assets/stylesheets/site.scss */
 nav li:hover {
   border-bottom: 1px solid rgba(255, 0, 0, 0.4);
 }
 
-/* line 27, ../assets/stylesheets/site.scss */
+/* line 31, ../assets/stylesheets/site.scss */
 .page {
   margin: 0px auto;
   padding: 20px 0;
   width: 46.703%;
 }
 
-/* line 33, ../assets/stylesheets/site.scss */
+/* line 37, ../assets/stylesheets/site.scss */
 .bio {
   margin-top: 200px;
 }
-/* line 35, ../assets/stylesheets/site.scss */
+/* line 39, ../assets/stylesheets/site.scss */
 .bio .name {
   padding: 20px 10px;
   font-size: 3em;
 }
-/* line 39, ../assets/stylesheets/site.scss */
+/* line 43, ../assets/stylesheets/site.scss */
 .bio .about {
   padding: 10px;
   font-size: 1.5em;
   color: #444;
 }
-/* line 43, ../assets/stylesheets/site.scss */
+/* line 47, ../assets/stylesheets/site.scss */
 .bio .about p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 50, ../assets/stylesheets/site.scss */
+/* line 54, ../assets/stylesheets/site.scss */
 .posts {
   margin-top: 50px;
 }
-/* line 52, ../assets/stylesheets/site.scss */
+/* line 56, ../assets/stylesheets/site.scss */
 .posts .blog-post {
   padding: 20px 0;
 }
-/* line 54, ../assets/stylesheets/site.scss */
+/* line 58, ../assets/stylesheets/site.scss */
 .posts .blog-post h1 {
   padding: 10px 0;
   font-size: 1.5em;
 }
-/* line 58, ../assets/stylesheets/site.scss */
+/* line 62, ../assets/stylesheets/site.scss */
 .posts .blog-post .title a {
   color: #111;
   text-decoration: none;
 }
-/* line 62, ../assets/stylesheets/site.scss */
+/* line 66, ../assets/stylesheets/site.scss */
 .posts .blog-post .title a:hover {
   color: #070;
 }
-/* line 65, ../assets/stylesheets/site.scss */
+/* line 69, ../assets/stylesheets/site.scss */
 .posts .blog-post p {
   color: #444;
 }
 
-/* line 71, ../assets/stylesheets/site.scss */
+/* line 75, ../assets/stylesheets/site.scss */
 .post {
   margin-top: 50px;
 }
-/* line 73, ../assets/stylesheets/site.scss */
+/* line 77, ../assets/stylesheets/site.scss */
 .post .title {
   font-size: 2em;
   padding: 50px 0;
   text-align: center;
 }
-/* line 78, ../assets/stylesheets/site.scss */
+/* line 82, ../assets/stylesheets/site.scss */
 .post p {
   color: #444;
   font-size: 1.3em;
@@ -166,7 +171,7 @@ nav li:hover {
   padding-bottom: 10px;
 }
 
-/* line 87, ../assets/stylesheets/site.scss */
+/* line 91, ../assets/stylesheets/site.scss */
 #disqus_thread {
   margin: 30px 0;
 }
