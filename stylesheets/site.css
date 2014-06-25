@@ -1,4 +1,4 @@
-/* line 17, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/jithu/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -142,27 +142,28 @@ nav li:hover {
 .posts .blog-post .title a {
   color: #111;
   text-decoration: none;
+  border-bottom: 1px dotted #CCC;
 }
-/* line 66, ../assets/stylesheets/site.scss */
+/* line 67, ../assets/stylesheets/site.scss */
 .posts .blog-post .title a:hover {
   color: #070;
 }
-/* line 69, ../assets/stylesheets/site.scss */
+/* line 70, ../assets/stylesheets/site.scss */
 .posts .blog-post p {
   color: #444;
 }
 
-/* line 75, ../assets/stylesheets/site.scss */
+/* line 76, ../assets/stylesheets/site.scss */
 .post {
   margin-top: 50px;
 }
-/* line 77, ../assets/stylesheets/site.scss */
+/* line 78, ../assets/stylesheets/site.scss */
 .post .title {
   font-size: 2em;
   padding: 50px 0;
   text-align: center;
 }
-/* line 82, ../assets/stylesheets/site.scss */
+/* line 83, ../assets/stylesheets/site.scss */
 .post p {
   color: #444;
   font-size: 1.3em;
@@ -171,7 +172,7 @@ nav li:hover {
   padding-bottom: 10px;
 }
 
-/* line 91, ../assets/stylesheets/site.scss */
+/* line 92, ../assets/stylesheets/site.scss */
 #disqus_thread {
   margin: 30px 0;
 }
