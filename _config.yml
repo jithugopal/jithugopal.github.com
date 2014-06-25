@@ -1,5 +1,12 @@
-auto: true
+# Site settings
+title: Jithu Gopal
+description: "Jithu Gopal's blog"
+baseurl: ""
+url: "http://jithugopal.com"
+
 markdown: rdiscount
-exclude: assets
-rdiscount
-  extensions: [smart]
+exclude: [assets]
+rdiscount:
+  extensions:
+    - smart
+
