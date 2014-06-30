@@ -10,3 +10,5 @@ rdiscount:
   extensions:
     - smart
 
+gems:
+  - jekyll-sitemap
