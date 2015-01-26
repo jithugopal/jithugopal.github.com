@@ -8,73 +8,41 @@ em {
 }
 
 nav {
-  margin: 10px auto;
-  width: percentage($container-width / $page-width);
+  margin: 20px auto;
+  padding: 10px 0;
+  width: $container-width;
   overflow: hidden;
+  .name {
+    text-decoration: none;
+    font-size: 2em;
+  }
+  .about {
+    float: right;
+    font-size: 1.4em;
+  }
+}
+
+.rule {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .page {
-  margin: 0px auto;
-  padding: 20px 0;
-  width: percentage($container-width / $page-width);
+  margin: 100px auto;
+  width: $container-width;
 }
 
-.bio {
-  margin-top: 200px;
-  .name {
-    padding: 20px 10px;
-    font-size: 3em;
-  }
-  .about {
-    padding: 10px;
-    font-size: 1.5em;
-    color: #444;
-    p {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-  }
-}
-
-.posts {
-  margin-top: 50px;
-  .blog-post {
+.post-list {
+  .post-item {
     padding: 20px 0;
-    h1 {
-      padding: 10px 0;
-      font-size: 1.5em;
-    }
-    .title a {
-      color: #111;
-      text-decoration: none;
-      border-bottom: 1px dotted #CCC;
-    }
-    .title a:hover {
-      color: #070;
-    }
-    p {
-      color: #444;
-    }
   }
-}
-
-.post {
-  margin-top: 50px;
-  .title {
-    font-size: 2em;
-    padding: 50px 0;
-    text-align: center;
+  .post-item-meta {
+    float: right;
   }
-  p {
-    color: #444;
-    font-size: 1.3em;
-    line-height: 1.5em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  h2 {
+    margin: 0;
   }
-}
-
-#disqus_thread {
-  margin: 30px 0;
 }
 

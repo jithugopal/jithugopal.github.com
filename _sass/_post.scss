@@ -1,0 +1,22 @@
+.post {
+  margin-top: 50px;
+  .post-title {
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+  .post-meta {
+    margin-left: 2px;
+    font-size: 0.8em;
+  }
+  p {
+    color: #444;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+#disqus_thread {
+  margin: 30px 0;
+}
