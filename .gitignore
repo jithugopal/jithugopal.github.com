@@ -1,11 +1,6 @@
 # mac stuff
 .DS_Store
 
-# emacs stuff
-*~
-\#*
-
 #blog specific
 _site
-css
 .sass-cache
