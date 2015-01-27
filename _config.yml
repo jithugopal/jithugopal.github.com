@@ -6,3 +6,6 @@ url: "http://jithugopal.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: rdiscount
+
+gems:
+  - jekyll-sitemap
