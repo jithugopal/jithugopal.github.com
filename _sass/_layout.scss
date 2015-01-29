@@ -37,6 +37,17 @@ nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.footer {
+  margin: 30px auto;
+  width: 150px;
+  a {
+    margin-left: 10px;
+  }
+  i {
+    font-size: 3em;
+  }
+}
+
 .page {
   margin: 100px auto;
   width: $container-width;
