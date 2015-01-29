@@ -1,5 +1,9 @@
+h1 {
+  font-family: "museo-slab", serif;
+}
+
 body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'museo-sans', sans-serif;
   line-height: 1.5em;
   overflow-y: scroll;
 }
@@ -14,8 +18,11 @@ nav {
   width: $container-width;
   overflow: hidden;
   .name {
-    text-decoration: none;
+    float: left;
     font-size: 2em;
+    a {
+      text-decoration: none;
+    }
   }
   .about {
     float: right;
