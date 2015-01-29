@@ -1,16 +1,14 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1">
   <meta name="author" content="Jithu Gopal" />
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <meta name="description" content="Fiction. Poetry. Code." />
+  <meta property="og:image" content="https://s.gravatar.com/avatar/fb94c229d531e00c87d1cdcee6268185"/>
+  <meta name="twitter:site" content="@poxypen"/>
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
+  <link rel="canonical" href="http://www.jithugopal.com/">
+  <title>{{ page.title }}</title>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37455421-1']);
@@ -22,5 +20,6 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
+  <script src="//use.typekit.net/tqf8wwt.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 </head>
-
