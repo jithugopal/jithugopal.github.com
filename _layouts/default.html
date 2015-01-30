@@ -3,25 +3,27 @@
 <html>
   {% include head.html %}
   <body>
-    <nav>
-      <h1 class="name"><a href="/">jithu gopal</a></h1>
-      <a class="about" href="/about">about</a>
-    </nav>
-    <hr class="rule"/>
-    <section class="page">
-      {{ content }}
-    </section>
-    <footer>
+    <div class="container">
+      <nav>
+        <h1 class="name"><a href="/">jithu gopal</a></h1>
+        <a class="about" href="/about">about</a>
+      </nav>
       <hr class="rule"/>
-      <section class="footer">
-        <a target="_blank" href="http://twitter.com/poxypen">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a target="_blank" href="http://github.com/jithugopal">
-          <i class="fa fa-github"></i>
-        </a>
+      <section class="page">
+        {{ content }}
       </section>
-    </footer>
+      <footer>
+        <hr class="rule"/>
+        <section class="social-media">
+          <a target="_blank" href="http://twitter.com/poxypen">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a target="_blank" href="http://github.com/jithugopal">
+            <i class="fa fa-github"></i>
+          </a>
+        </section>
+      </footer>
+    </div>
   </body>
 </html>
 
