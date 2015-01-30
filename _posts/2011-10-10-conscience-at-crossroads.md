@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conscience at crossroads
+title: Conscience at Crossroads
 permalink: '/posts/conscience-at-crossroads.html'
 redirect_from: '/2011/10/10/conscience.html'
 ---
