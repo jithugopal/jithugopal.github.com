@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conscience at crossroads
-permalink: '/posts/:title.html'
+permalink: '/posts/conscience-at-crossroads.html'
 redirect_from: '/2011/10/10/conscience.html'
 ---
 
