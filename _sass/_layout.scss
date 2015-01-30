@@ -53,15 +53,17 @@ footer {
   .social-media {
     margin: 0 auto;
     padding: 20px;
-    width: 150px;
+    width: 120px;
     a {
-      margin-left: 10px;
+      margin-left: 20px;
+      transition: all .3s ease;
       &:hover {
         text-decoration: none;
+        color: #55acee;
       }
     }
     i {
-      font-size: 3em;
+      font-size: 2em;
     }
   }
 }
