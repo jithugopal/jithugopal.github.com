@@ -9,7 +9,13 @@
   <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <title>{{ page.title }}</title>
+  <title>
+  {% if page.title %}
+    {{ page.title }}
+  {% else %}
+    {{ site.title}}
+  {% endif %}
+  </title>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37455421-1']);

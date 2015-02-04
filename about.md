@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Jithu's Blog
 permalink: /about/
 ---
 
