@@ -9,7 +9,6 @@ em {
 nav {
   margin: 0 auto;
   padding: 30px 0 20px;
-  width: $container-width;
   overflow: hidden;
   .name {
     float: left;
@@ -60,7 +59,6 @@ footer {
 
 .page {
   margin: 100px auto 0;
-  width: $container-width;
   padding-bottom: 90px;
 }
 
@@ -74,5 +72,19 @@ footer {
   }
   h2 {
     margin: 0;
+  }
+}
+
+.wrapper {
+  width: 90%;
+  @include media-query($on-laptop) {
+    width: $container-width;
+  }
+}
+
+.surplus {
+  display: none;
+  @include media-query($on-tablet) {
+    display: block;
   }
 }
