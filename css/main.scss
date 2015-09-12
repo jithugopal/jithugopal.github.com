@@ -3,10 +3,11 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'museo-sans', Helvetica, Arial, sans-serif;
+$serif-font-family: 'museo-slab', serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.5em;
 
 $spacing-unit:     30px;
 
