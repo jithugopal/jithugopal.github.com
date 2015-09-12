@@ -74,17 +74,3 @@ footer {
     margin: 0;
   }
 }
-
-.wrapper {
-  width: 90%;
-  @include media-query($on-laptop) {
-    width: $container-width;
-  }
-}
-
-.surplus {
-  display: none;
-  @include media-query($on-tablet) {
-    display: block;
-  }
-}

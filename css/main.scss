@@ -37,7 +37,8 @@ $on-laptop:        720px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "about",
-        "post"
+        "responsive",
+        "common",
+        "post",
+        "about"
 ;
