@@ -1,16 +1,11 @@
-.bio {
+.about {
+  color: #444;
   margin-top: 15vh;
-  a {
-    border-bottom: 1px $text-color dotted;
-    &:hover {
-        border-bottom: 1px $text-color solid;
-    }
+  p {
+    line-height: 1.5em;
+    padding: 10px 0;
   }
-  .about {
-    color: #444;
-    p {
-      line-height: 1.5em;
-      padding: 10px 0;
-    }
+  a {
+    color: $link-color;
   }
 }
