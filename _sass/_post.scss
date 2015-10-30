@@ -1,7 +1,7 @@
 .post {
   margin-top: 50px;
   .post-title {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .post-meta {
     margin-left: 2px;
@@ -11,8 +11,17 @@
   p {
     color: #444;
     line-height: 1.5em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  }
+
+  ul {
+    list-style: inside;
+    li {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      @include media-query($on-laptop) {
+        font-size: 1.3em;
+      }
+    }
   }
 }
 
