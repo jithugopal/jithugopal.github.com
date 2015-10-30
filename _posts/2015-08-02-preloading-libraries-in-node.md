@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Preloading libaries in your node repl'
+description: >
+  Have your oft-used libraries in the node repl pre-initialized.
 permalink: '/posts/preloading-libraries-in-node-repl.html'
 ---
 

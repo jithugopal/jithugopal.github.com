@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 'Refresher on SOLID principles'
+title: Refresher on SOLID principles
+description: >
+  A quick recap on how to write maintainable code adhering to SOLID principles
 permalink: '/posts/refresher-on-solid-principles'
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: About / Jithu Gopal
 permalink: /about/
 ---
 
