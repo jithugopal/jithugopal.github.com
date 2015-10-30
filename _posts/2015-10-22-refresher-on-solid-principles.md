@@ -130,7 +130,7 @@ Clearly inheritance has forced us to mutate Square's internal state (setters for
 
 <h2 id="isp">Interface Segregation Principle (ISP)</h2>
 
-The idea is a class should require only required behaviour and nothing more. This sort of ties into languages with interface constructs, as you inherit the complete API when you implement the interface in your class. Let' see how this can affect our `Book` example.
+The idea is a class should mix in only required behaviour and nothing more. This sort of ties into languages with interface constructs, as you inherit the complete API when you implement the interface in your class. Let' see how this can affect our `Book` example.
 
 ```
 module Utils
@@ -145,7 +145,6 @@ end
 
 class Book
   include Utils
-
   attr_accessors :content, :title
 end
 ```
