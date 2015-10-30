@@ -1,5 +1,5 @@
 .bio {
-  margin-top: 100px;
+  margin-top: 15vh;
   a {
     border-bottom: 1px $text-color dotted;
     &:hover {
@@ -12,8 +12,5 @@
       line-height: 1.5em;
       padding: 10px 0;
     }
-  }
-  @include media-query($on-laptop) {
-    margin-top: 200px;
   }
 }
