@@ -73,6 +73,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: $serif-font-family;
     font-weight: 300;
 }
 
@@ -143,7 +144,6 @@ pre {
  */
 
 h1 {
-  font-family: $serif-font-family;
   font-size: 1.75em;
   @include media-query($on-laptop) {
     font-size: 2em;
@@ -151,8 +151,8 @@ h1 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   @include media-query($on-laptop) {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }

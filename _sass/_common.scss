@@ -8,15 +8,16 @@ em {
 
 nav {
   margin: 0 auto;
-  padding: 30px 0 20px;
+  padding: 20px 0 10px;
   overflow: hidden;
   .name {
     float: left;
     margin-bottom: 15px;
+    font-size: 1.75em;
   }
   .about {
     float: right;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 }
 
@@ -64,10 +65,13 @@ footer {
     padding: 20px 0;
   }
   .post-item-meta {
+    font-size: 0.9em;
     float: right;
     color: #999;
   }
   h2 {
+    font-family: $base-font-family;
+    font-size: 1.3em;
     margin: 0;
   }
 }

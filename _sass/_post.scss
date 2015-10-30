@@ -16,10 +16,10 @@
   ul {
     list-style: inside;
     li {
-      margin-bottom: 10px;
-      font-size: 1.2em;
+      margin-bottom: 5px;
+      font-size: 1.1em;
       @include media-query($on-laptop) {
-        font-size: 1.3em;
+        font-size: 1.2em;
       }
     }
   }
