@@ -16,7 +16,7 @@ SOLID is a mnemonic acronym that stands for:
 * [Open Closed Principle](#ocp)
 * [Liskov Substitution Principle](#lsp)
 * [Interface Segregation Principle](#isp)
-* [Dependency Inversion Principle](#di)
+* [Dependency Inversion Principle](#dip)
 
 <h2 id="srp">Single Responsibility Principle (SRP)</h2>
 
