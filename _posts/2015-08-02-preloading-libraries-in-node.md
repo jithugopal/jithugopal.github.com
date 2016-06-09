@@ -25,25 +25,25 @@ libs.forEach(function(lib) {
 
 Ok fine, I should have mentioned that your packages should be installed globally in the first place. The npm install switch is `-g` in case you forgot.
 
-```
+~~~
 $ npm install -g lodash
-```
+~~~
 
 You need to have `NPM_HOME` set in your `PATH`. Also, it would have been neat if I could have got a `npm root -g` equivalent to get the `npm_modules` path instead of all the string munging.
 
 To put the script in my `PATH`, I created an `nrepl` file in `/usr/local/bin` (I can see my clojure friends smirking). Of course, you got to change permissions too silly.
 
-```
+~~~
 $ chmod u+x nrepl
 $ mv nrepl /usr/local/bin
-```
+~~~
 
 And to see if everything works.
 
-```
+~~~
 $ nrepl
 > lodash.each
 [Function]
-```
+~~~
 
 Yay!

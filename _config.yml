@@ -5,8 +5,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jithugopal.com" # the base hostname & protocol for your site
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+
+kramdown:
+  coderay_line_numbers: nil

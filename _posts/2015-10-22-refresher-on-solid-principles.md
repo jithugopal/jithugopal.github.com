@@ -24,35 +24,33 @@ A class must have only one responsibility. Often a good way to ensure this is to
 
 Consider the following system where you're modelling a library.
 
-```
+~~~ruby
 class Book
   attr_accessor :title, :content, :shelf_position
-  //initialization logic
 
   def move_to(new_position)
     shelf_position = new_position
   end
 end
-```
+~~~
 
 Here apart from `Book` being spatially aware, the behaviour of how it should move around also resides in `Book`. We could have a situation later where a book could know how to `print` itself. In no time, your `Book` could turn into a monolith and unwieldy to manage.
 
 In the above code sample, `Shelf` would be a good candidate to store book locations and house the behaviour of moving books.
 
-```
+~~~ruby
 class Book
   attr_reader :title, :content
 end
 
 class Shelf
   attr_reader :books
-  //initializers
 
   def move_book(new_position, book)
     books[new_position] = book
   end
 end
-```
+~~~
 
 <h2 id="ocp">Open Closed Principle (OCP)</h2>
 
@@ -60,7 +58,7 @@ You must have heard that code should be open for extension but closed for modifi
 
 Let's take our previous `Book` example. We have requirement to print books in a specific format. Rather than having a humungous print function in Book, this could be delegated to a BookPrinter object, like so.
 
-```
+~~~ruby
 class Book
   attr_accessors :content, :title
 
@@ -75,10 +73,10 @@ class BookPrinter
   end
 
   def print
-    // printing logic goes here
+    # printing logic goes here
   end
 end
-```
+~~~
 
 This keeps the API surface area for the book object clean as you don't have a proliferation of print function and their helpers sitting in every `Book` instance. In a lot of aways, it's a throw back to SRP.
 
@@ -90,10 +88,9 @@ The general idea is to validate if the subtype (child class if it's inheritance)
 
 I'm going to demonstrate this with the classic example.
 
-```
+~~~ruby
 class Rectangle
   attr_accessors :width, :height
-  //initialization
 
   def area
     width * height
@@ -126,7 +123,7 @@ shapes.each do |shape|
 end
 # 20 for rectangle - correct
 # 25 for square - wut
-```
+~~~
 
 Clearly inheritance has forced us to mutate Square's internal state (setters for height and width) which throws everything out of the window. Conceptually, Square may be a Rectangle but the code clearly defines two separate contracts. If you see `if` checks, for a particular subtype if your method calls, that could potentially be a violation of LSP.
 
@@ -134,7 +131,7 @@ Clearly inheritance has forced us to mutate Square's internal state (setters for
 
 The idea is a class should mix in only required behaviour and nothing more. This sort of ties into languages with interface constructs, as you inherit the complete API when you implement the interface in your class. Let' see how this can affect our `Book` example.
 
-```
+~~~ruby
 module Utils
   def title_cased(text)
     text.titlecase
@@ -149,11 +146,11 @@ class Book
   include Utils
   attr_accessors :content, :title
 end
-```
+~~~
 
 Book might need only title_cased behaviour but mixing in Utils brings in logger to. Better split into separate interfaces and require only what's needed.
 
-```
+~~~ruby
 module Utils
   module TextFormatter
     def title_cased(text)
@@ -167,13 +164,13 @@ module Utils
     end
   end
 end
-```
+~~~
 
 <h2 id="dip">Dependency Inversion Principle (DI)</h2>
 
 I'll dive right into the code by taking our Book example. From OCP we've seen, the benefits of splitting out printer object.
 
-```
+~~~ruby
 class Book
   attr_accessors :content, :title
 
@@ -181,13 +178,13 @@ class Book
     BookPrinter.new(self).print
   end
 end
-```
+~~~
 
 On the outset, this looks clean, but we can clearly see that `Book` is strongly coupled with `BookPrinter`.
 
 Let's fix that.
 
-```
+~~~ruby
 class Book
   attr_accessors :content, :title
 
@@ -195,7 +192,7 @@ class Book
     printer.new(self).print
   end
 end
-```
+~~~
 
 This introduces the flexibility of injecting other custom printer classes into `Book`. Test driving your code forces you in a lot of ways to follow DI.
 
