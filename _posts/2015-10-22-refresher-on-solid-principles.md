@@ -4,6 +4,7 @@ title: Refresher on SOLID principles
 description: >
   A quick recap on how to write maintainable code adhering to SOLID principles
 permalink: '/blog/refresher-on-solid-principles'
+redirect_from: '/posts/refresher-on-solid-principles'
 ---
 
 Object Oriented Programming (OOP) has been around for over four decades since Alan Kay and his colleagues introduced it to the world. Languages have flourished and died in it's wake imparting sound practices that stood the test of time.
