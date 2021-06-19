@@ -3,16 +3,13 @@ layout: default
 title: Jithu Gopal
 description: >
   My experiments with fiction, poetry, and code – distilled and siphoned off to a remote capacitor bank.
+redirect_from: '/about/'
 ---
 
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li class="post-item">
-      <span class="post-item-meta surplus">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="about">
+  <p>Hello..</p>
+  <p>I am a <a href="https://www.linkedin.com/in/jithu-gopal-842119b/" target="_blank">product builder</a> currently working at <a href="https://scripbox.com" target="_blank">Scripbox</a>. Before moving to product, I had spent a better part of my career writing software at <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a> and <a href="https://twitter.com/c42engineering" target="_blank">@c42engineering</a>.</p>
+  <p>I own a Trek 3700 and enjoy biking in and around the city. I do some star-gazing and occasional bird-watching with my Olympus 10x50 binoculars.
+  <p>You can reach me at <a href="mailto:mail@jithugopal.com">mail@jithugopal.com</a>.</p>
+</div>
 
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul>

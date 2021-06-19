@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Conscience at Crossroads
-permalink: '/posts/conscience-at-crossroads.html'
-redirect_from: '/2011/10/10/conscience.html'
+permalink: '/blog/conscience-at-crossroads.html'
+redirect_from: '/posts/conscience-at-crossroads.html'
 ---
 
 A thousand miles behind us  

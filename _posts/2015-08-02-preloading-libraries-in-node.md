@@ -3,7 +3,8 @@ layout: post
 title: 'Preloading libaries in your node repl'
 description: >
   Have your oft-used libraries in the node repl pre-initialized.
-permalink: '/posts/preloading-libraries-in-node-repl.html'
+permalink: '/blog/preloading-libraries-in-node-repl.html'
+redirect_from: '/posts/preloading-libraries-in-node-repl.html'
 ---
 
 After grumbling countless times thinking 'why isn't lodash preloaded as soon as start my node repl?!', I bit the bullet and quickly hacked up a script to do just that. After perusing the [repl](https://nodejs.org/api/repl.html#repl_repl_features) doc, this is what I came up with.
