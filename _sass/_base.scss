@@ -2,19 +2,19 @@
  * Self-hosted fonts
  */
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('/assets/fonts/inter-light.woff2') format('woff2');
+  src: url('/assets/fonts/lato-light.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/assets/fonts/inter-regular.woff2') format('woff2');
+  src: url('/assets/fonts/lato-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -54,10 +54,12 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: 400;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /**
@@ -173,6 +175,7 @@ h1 {
 
 p {
   font-size: 1.1em;
+  font-weight: 400;
   @include media-query($on-laptop) {
     font-size: 1.2em;
   }

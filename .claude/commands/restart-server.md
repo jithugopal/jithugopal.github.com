@@ -1,0 +1,1 @@
+Stop any running Jekyll server process and start a fresh one with `bundle exec jekyll serve`. Run the server in the background and confirm it's running by checking for the "Server running" message in the output.
