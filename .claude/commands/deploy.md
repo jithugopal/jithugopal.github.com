@@ -1,0 +1,1 @@
+Review all staged and unstaged changes, create a commit with a descriptive message, and push to the remote repository.
