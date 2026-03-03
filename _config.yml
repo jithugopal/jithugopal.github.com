@@ -1,15 +1,26 @@
-# Site settings
 title: "Jithu Gopal"
 description: "Jithu Gopal's Blog"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.jithugopal.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://www.jithugopal.com"
 
-# Build settings
 markdown: kramdown
 
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-seo-tag
 
 kramdown:
-  coderay_line_numbers: nil
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+feed:
+  path: /feed.xml
+
+author:
+  name: Jithu Gopal
+  email: mail@jithugopal.com

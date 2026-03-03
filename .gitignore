@@ -1,6 +1,9 @@
-# mac stuff
 .DS_Store
-
-#blog specific
-_site
-.sass-cache
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+TODO.md

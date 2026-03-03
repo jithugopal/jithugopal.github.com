@@ -7,16 +7,16 @@ em {
 }
 
 nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 20px 0 10px;
-  overflow: hidden;
   .name {
-    float: left;
     margin-bottom: 15px;
     font-size: 1.75em;
   }
   .nav-link {
-    float: right;
     font-size: 1.3em;
   }
 }
@@ -29,28 +29,29 @@ nav {
 }
 
 .container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
   width: 100%;
   .social-media {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
-    width: fit-content;
     a {
-      margin-left: 20px;
       transition: all .3s ease;
       &:hover {
         text-decoration: none;
         color: #55acee;
       }
     }
-    i {
-      font-size: 2em;
+    svg {
+      width: 24px;
+      height: 24px;
     }
   }
 }
@@ -62,11 +63,15 @@ footer {
 
 .post-list {
   .post-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
     padding: 20px 0;
   }
   .post-item-meta {
     font-size: 0.9em;
-    float: right;
+    flex-shrink: 0;
+    margin-left: 1em;
     color: #999;
   }
   h2 {

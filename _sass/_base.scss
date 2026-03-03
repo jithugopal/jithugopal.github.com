@@ -1,4 +1,39 @@
 /**
+ * Self-hosted fonts
+ */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/assets/fonts/inter-light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/inter-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/assets/fonts/zilla-slab-light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/zilla-slab-regular.woff2') format('woff2');
+}
+
+/**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
@@ -35,8 +70,6 @@ ul, ol, dl, figure,
     margin-bottom: 35px;
 }
 
-
-
 /**
  * Images
  */
@@ -44,8 +77,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -58,16 +89,12 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
 li {
     > ul,
     > ol {
          margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Headings
@@ -92,8 +119,6 @@ a {
     }
 }
 
-
-
 /**
  * Blockquotes
  */
@@ -109,8 +134,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Code formatting
@@ -129,7 +152,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     > code {
         border: 0;
@@ -138,11 +161,9 @@ pre {
     }
 }
 
-
 /**
  * Responsive typography
  */
-
 h1 {
   font-size: 1.75em;
   @include media-query($on-laptop) {

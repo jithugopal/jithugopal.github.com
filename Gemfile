@@ -1,4 +1,10 @@
-# If you have any plugins, put them here!
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+
 group :jekyll_plugins do
-  gem "github-pages"
+  gem "jekyll-sitemap"
+  gem "jekyll-redirect-from"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
 end
